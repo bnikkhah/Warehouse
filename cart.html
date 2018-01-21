@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WareHouse Cart</title>
+  <link rel="icon" href="resources/img/favicon.png" type="image/png" sizes="16x16">
+  <link rel="stylesheet" type="text/css" href="resources/css/reset.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/base.css">
+  <link rel="stylesheet" type="text/css" href="resources/css/cart.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Header -->
+
+    <header role="header">
+      <a href="index.html"><img src="resources/img/home.png" alt="logo" aria-label="logo"></a>
+      <div class="search-bar">
+        <input type="text" name="search" placeholder="Search for items">
+      </div>
+      <a href="cart.html" class="button cart" id="cart">Cart <img src="resources/img/cart.svg" alt="cart" aria-labelledby="cart">(3)</a>
+    </header>
+    <nav role="navigation">
+      <a href="deals.html">Today's Deals</a>
+      <a href="products.html">Products</a>
+      <a href="about.html">About Us</a>
+      <a href="sell.html">Sell</a>
+      <a href="jobs.html">Jobs</a>
+    </nav>
+
+    <!-- Cart -->
+
+    <main id="main" class="product-list-section" role="main">
+      <h2>Shopping Cart</h2>
+
+    <section class="shopping-cart" role="section">
+
+        <div class="row">
+          <div class="image-container">
+            <img src="resources/img/cart/white-console.jpg" alt="white console" aria-label="white console">
+          </div>
+
+          <div class="description">
+            <h3>White Console</h3>
+            <br>
+            <span class="price">499</span>
+          </div>
+
+          <div class="quantity">
+            Quantity <input type="number" name="Quantity" placeholder="1" min="1">
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="image-container">
+            <img src="resources/img/cart/yellow-chair.jpg" alt="yellow chair" aria-label="yellow chair">
+          </div>
+
+          <div class="description">
+            <h3>Yellow Chair</h3>
+            <br>
+            <span class="price">189</span>
+          </div>
+
+          <div class="quantity">
+            Quantity <input type="number" name="Quantity" placeholder="1" min="1">
+          </div>
+        </div>
+
+        <div class="row" id="no-border">
+          <div class="image-container">
+            <img src="resources/img/cart/wire-stool.jpg" alt="wire stool" aria-label="wire stool">
+          </div>
+
+          <div class="description">
+            <h3>Wire Stool</h3>
+            <br>
+            <span class="price">75</span>
+          </div>
+
+          <div class="quantity">
+            Quantity <input type="number" name="Quantity" placeholder="1" min="1">
+          </div>
+        </div>
+
+      <div class="total">
+        <div class="description">
+          <h3>Total</h3>
+          <span class="price">763</span> <!-- 763.00 -->
+        </div>
+        <a href="" class="button">Checkout</a>
+      </div>
+    </section>
+  </main>
+
+    <!-- Footer -->
+
+    <footer role="footer">
+      <img src="resources/img/home.png" alt="logo" aria-label="logo">
+      <div class="links">
+        <h4>Get to know us</h4>
+        <a href="#">About us</a>
+        <a href="jobs.html">Jobs</a>
+        <a href="#">Investor relations</a>
+        <a href="#">Link</a>
+      </div>
+      <div class="links">
+        <h4>Make money with us</h4>
+        <a href="sell.html">Sell on WareHouse</a>
+        <a href="#">Become a vendor</a>
+        <a href="#">Fundraiser events</a>
+        <a href="#">Community outreach</a>
+      </div>
+      <div class="links">
+        <h4>Help</h4>
+        <a href="#">Contact us</a>
+        <a href="#">Conditions of use</a>
+        <a href="#">Report a problem</a>
+        <a href="#">Privacy Policy</a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
