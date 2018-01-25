@@ -11,14 +11,14 @@
 
     <!-- Header -->
 
-    <header role="header">
+    <header role="banner">
       <a href="index.html"><img src="resources/img/home.png" alt="logo" aria-label="logo"></a>
-      <div class="search-bar">
+      <section class="search-bar" role="search">
         <input type="text" name="search" placeholder="Search for items">
-      </div>
+      </section>
       <a href="cart.html" class="button cart" id="cart">Cart <img src="resources/img/cart.svg" alt="cart" aria-labelledby="cart">(3)</a>
     </header>
-    <nav role="navigation">
+    <nav class="navbar" role="navigation">
       <a href="deals.html">Today's Deals</a>
       <a href="products.html">Products</a>
       <a href="about.html">About Us</a>
@@ -31,7 +31,7 @@
     <main id="main" class="product-list-section" role="main">
       <h2>Today's Deals</h2>
 
-      <section class="product-list todaysdeals" role="section">
+      <section class="product-list todaysdeals" role="region">
         <a href="#" class="product-item">
           <div class="image-container">
             <img src="resources/img/deals/wooden-spoons.jpg" alt="wooden spoons" aria-labelledby="wooden_spoons">
@@ -77,29 +77,29 @@
 
     <!-- Footer -->
 
-    <footer role="footer">
-      <img src="resources/img/home.png" alt="logo" aria-label="logo">
-      <div class="links">
+    <footer role="contentinfo">
+      <img src="resources/img/home.png" alt="logo">
+      <nav class="links" role="navigation">
         <h4>Get to know us</h4>
         <a href="about.html">About us</a>
         <a href="jobs.html">Jobs</a>
         <a href="#">Investor relations</a>
         <a href="#">Link</a>
-      </div>
-      <div class="links">
+      </nav>
+      <nav class="links" role="navigation">
         <h4>Make money with us</h4>
         <a href="sell.html">Sell on WareHouse</a>
         <a href="#">Become a vendor</a>
         <a href="#">Fundraiser events</a>
         <a href="#">Community outreach</a>
-      </div>
-      <div class="links">
+      </nav>
+      <nav class="links" role="navigation">
         <h4>Help</h4>
         <a href="#">Contact us</a>
         <a href="#">Conditions of use</a>
         <a href="#">Report a problem</a>
         <a href="#">Privacy Policy</a>
-      </div>
+      </nav>
     </footer>
   </div>
 </body>
